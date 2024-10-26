@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enchanted Wedding</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/logo-enchanted.svg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="node_modules/flowbite/dist/flowbite.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-whiteWedding overflow-x-hidden">
+    <!-- navbar -->
+    <nav class="border-gray-200">
+      <div
+        class="container max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4"
+      >
+        <a href="#" class="">
+          <img
+            src="assets/img/logo-enchanted.svg"
+            class="h-12"
+            alt="Flowbite Logo"
+          />
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <button
+            type="button"
+            class="rounded-full bg-transparent border border-primary text-primary px-9 py-2 text-base"
+          >
+            Book
+          </button>
+          <button
+            data-collapse-toggle="navbar-cta"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-cta"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-cta"
+        >
+          <ul
+            class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block px-3 py-2 text-primary bg-blue-700 rounded md:bg-transparent md:p-0"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block px-3 py-2 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-white md:dark:hover:text-secondary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block px-3 py-2 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-white md:dark:hover:text-secondary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Service</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block px-3 py-2 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-white md:dark:hover:text-secondary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block px-3 py-2 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-white md:dark:hover:text-secondary dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- hero section -->
+    <div class="container max-w-screen-xl mt-36">
+      <div class="grid grid-cols-1 md:grid-cols-3 items-center">
+        <div class="md:col-span-1">
+          <h3 class="text-base text-greyWedding uppercase tracking-widest">
+            Life is an event
+          </h3>
+          <h1
+            class="text-5xl my-3 uppercase text-primary font-cormorant tracking-widest"
+          >
+            Creating the Best Day Ever
+          </h1>
+          <p class="text-greyWedding text-base mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            aliquam mi id augue ultrices, in tempus elit tristique. Aliquam
+            ultrices sem non.
+          </p>
+          <button
+            type="button"
+            class="rounded-full bg-transparent border border-primary text-primary px-9 py-2 text-base uppercase"
+          >
+            explore
+          </button>
+        </div>
+        <div class="md:col-span-2 relative h-full">
+          <img
+            src="assets/img/hero-img.webp"
+            alt=""
+            class="hidden md:block absolute top-1/2 -right-[4.4rem] transform -translate-y-1/2"
+          />
+          <img src="assets/img/hero-img.webp" alt="" class="block md:hidden" />
+        </div>
+      </div>
+    </div>
+    <!-- end hero section -->
+
+    <!-- build section -->
+    <div class="container max-w-screen-xl mt-28">
+      <div class="grid md:grid-cols-5">
+        <div class="md:col-span-3 -mt-24 -ml-20">
+          <img src="assets/img/build-img.webp" alt="" class="w-11/12" />
+        </div>
+        <div class="md:col-span-2 my-auto">
+          <h3
+            class="text-greyWedding text-base tracking-widest uppercase md:text-7xl"
+          >
+            We create . You celebrate
+          </h3>
+          <h1 class="text-5xl font-cormorant text-primary uppercase my-3">
+            We build your dream around you
+          </h1>
+          <p class="text-greyWedding mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            aliquam mi id augue ultrices, in tempus elit tristique. Aliquam
+            ultrices sem non.
+          </p>
+          <button
+            type="button"
+            class="rounded-full bg-transparent border border-primary text-primary px-9 py-2 text-base uppercase"
+          >
+            explore
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- end build section -->
+
+    <!-- catering section -->
+    <div class="container max-w-screen-xl mt-28">
+      <div class="grid md:grid-cols-5">
+        <div class="md:col-span-2 my-auto">
+          <h3 class="text-greyWedding text-base tracking-widest uppercase">
+            elite catering
+          </h3>
+          <h1 class="text-5xl font-cormorant text-primary uppercase my-3">
+            We plan your day to perfection
+          </h1>
+          <p class="text-greyWedding mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            aliquam mi id augue ultrices, in tempus elit tristique. Aliquam
+            ultrices sem non.
+          </p>
+          <div class="mb-5">
+            <div class="flex items-center justify-between">
+              <h3 class="uppercase text-[20px] font-cormorant text-greyWedding">
+                Pulled jackfruit
+              </h3>
+              <hr class="w-64 h-[2px] bg-greyWedding rounded-full" />
+              <h3 class="uppercase text-base text-greyWedding">$50</h3>
+            </div>
+            <p class="text-greyWedding">
+              (cumin seeds, paprika, tomato, jackfruit)
+            </p>
+          </div>
+          <div class="mb-5">
+            <div class="flex items-center justify-between">
+              <h3 class="uppercase text-[20px] font-cormorant text-greyWedding">
+                Wedding wreath
+              </h3>
+              <hr class="w-64 h-[2px] bg-greyWedding rounded-full" />
+              <h3 class="uppercase text-base text-greyWedding">$68</h3>
+            </div>
+            <p class="text-greyWedding">(spinach, tofu, nutmeg, cherries)</p>
+          </div>
+          <div class="mb-5">
+            <div class="flex items-center justify-between">
+              <h3 class="uppercase text-[20px] font-cormorant text-greyWedding">
+                del macaroons
+              </h3>
+              <hr class="w-64 h-[2px] bg-greyWedding rounded-full" />
+              <h3 class="uppercase text-base text-greyWedding">$23</h3>
+            </div>
+            <p class="text-greyWedding">(almond, milk, sugar, vanilla)</p>
+          </div>
+          <button
+            type="button"
+            class="rounded-full bg-transparent border border-primary text-primary px-9 py-2 text-base uppercase"
+          >
+            explore
+          </button>
+        </div>
+        <div class="md:col-span-3 -mt-24 md:-mr-40">
+          <img
+            src="assets/img/catering-img.webp"
+            alt=""
+            class="w-full md:w-11/12"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- end catering section -->
+
+    <!-- planning section -->
+    <div class="container max-w-screen-xl mt-28">
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="">
+          <img src="assets/img/planning-img.webp" alt="" class="w-full" />
+        </div>
+        <div class="md:ml-20 my-auto">
+          <h3 class="text-greyWedding text-base tracking-widest uppercase">
+            It’s all in the details
+          </h3>
+          <h1 class="text-5xl font-cormorant text-primary uppercase my-3">
+            Planning your perfect wedding is our passion
+          </h1>
+          <p class="text-greyWedding mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            aliquam mi id augue ultrices, in tempus elit tristique. Aliquam
+            ultrices sem non.
+          </p>
+          <button
+            type="button"
+            class="rounded-full bg-transparent border border-primary text-primary px-9 py-2 text-base uppercase"
+          >
+            explore
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- end planning section -->
+
+    <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>
